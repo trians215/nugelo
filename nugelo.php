@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("green","[]      BISMILLAHIRRAHMANIRRAHIM      []\n");
-echo color("yellow","[]          BY : HERUTOK              []\n");
+echo color("green","[]        UCAPKAN BISMILLAH YAA      []\n");
+echo color("yellow","[]          BY : TRIANS215              []\n");
 echo color("green","[]  Time  : ".date('[d-m-Y] [H:i:s]')."   []\n");
 echo color("yellow","[] Format Penulisan Nomor 62xxxxxxxx  []\n");
 function change(){
@@ -48,7 +48,7 @@ function change(){
         sleep(1);
         }
         sleep(3);
-        $boba10 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOD022620B"}');
+        $boba10 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOD022620A"}');
         $messageboba10 = fetch_value($boba10,'"message":"','"');
         if(strpos($boba10, 'Promo kamu sudah bisa dipakai.')){
         echo "\n".color("green","+] Message: ".$messageboba10);
