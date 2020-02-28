@@ -1,9 +1,16 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("green","[]      BISMILLAHIRRAHMANIRRAHIM      []\n");
-echo color("yellow","[]          BY : RismanTriansyah             []\n");
-echo color("green","[]  Time  : ".date('[d-m-Y] [H:i:s]')."   []\n");
+echo color("red"," ======================================\n");
+echo color("yellow","|Daftar Akun + Auto Claim Voucher Food|\n");
+echo color("yellow","| ______|____•_+ AUTO PIN _•___|_______|\n");
+echo color("green","| ________|______|__|_______|_________|\n");
+echo color("green","| __________|___|_____|___|___________|\n");
+echo color("green","| ____________|___21____|_____________|\n");
+echo color("green","| Version :__∆NUGELO - NUGELO∆____________|\n");
+echo color("white","| Time    :".date('[d-m-Y] [H:i:s]    ')."|\n");
+echo color("blue"," ======================================\n");
+
 function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
