@@ -1,4 +1,5 @@
 # nugelo
+
 pkg update
 
 pkg upgrade
@@ -15,7 +16,7 @@ cd nugelo
 
 ls
 
-php nugelo.php
+php food.php
 
 masukan no dengan format 62
 
